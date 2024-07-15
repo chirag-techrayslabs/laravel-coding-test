@@ -5,10 +5,10 @@
 You are required to create a simple online bookstore application using Laravel. The application should include the following features:
 
 - **Front-End:**
-  - A page to list all books.
+  - A page to list all books with searching on title, description and filtering by categories
 
 - **Admin Panel:**
-  - Functionality to create and update book records.
+  - Functionality to create and update book records and other records.
 
 ## Requirements
 
@@ -20,38 +20,24 @@ Create a page that displays a list of all books. Each book should show the follo
 - Author
 - Description
 - Price
+- Category
 
 ### 2. Admin Book Management
 
 Implement the following features for book management:
 
 - **Create Book:**
-  - Admin should be able to create a new book.
-  - Validate the following fields:
-    - `title`: required, string, max: 255
-    - `author`: required, string, max: 255
-    - `description`: optional, string
-    - `price`: required, numeric
+  - Admin should be able to create a new book and other relevent data as requried
 
 - **Update Book:**
-  - Admin should be able to update existing book details.
-  - Validate the same fields as in book creation.
-
-### 3. Validations
-
-Ensure the following validations for book creation and update:
-
-- `title`: required, string, max: 255
-- `author`: required, string, max: 255
-- `description`: optional, string
-- `price`: required, numeric
+  - Admin should be able to update the existing book and other relevent data as requried
 
 ## Submission
 
 - Create a new Laravel project.
 - Implement the required features.
 - Ensure the project is functional and meets all requirements.
-- Upload the project to a public GitHub repository.
+- Upload the project to a private GitHub repository and add @chirag-techrayslabs as collaborator
 - Share the repository link.
 
 ## Evaluation Criteria
